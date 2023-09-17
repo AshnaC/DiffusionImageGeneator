@@ -1,5 +1,7 @@
 # Denoising Diffusion Probabilistic Model
 
+Done as part of ADL course work
+
 # Code
 
 ## main.py
