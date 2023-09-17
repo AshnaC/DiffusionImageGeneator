@@ -4,9 +4,10 @@ from torchvision.utils import save_image
 from diffusion import Diffusion, linear_beta_schedule, cosine_beta_schedule, sigmoid_beta_schedule
 from model import Unet
 
-class_path = '/home/cip/ai2023/ir45ucej/courses/ADL/exercise2/generated-images/ckpt_class.pt'
-path = '/home/cip/ai2023/ir45ucej/courses/ADL/exercise2/generated-images/ckpt.pt'
-store_path = '/home/cip/ai2023/ir45ucej/courses/ADL/exercise2/generated-images/'
+# Msk Original path
+class_path = '/some_path'
+path = '/some_path'
+store_path = '/some_path'
 
 non_class_model = torch.load(path)
 class_model = torch.load(class_path)
