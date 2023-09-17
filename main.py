@@ -81,7 +81,6 @@ def test(model, testloader, diffusor, device, args):
 
 
 def train(model, trainloader, optimizer, diffusor, epoch, device, args):
-    batch_size = args.batch_size
     timesteps = args.timesteps
 
     pbar = tqdm(trainloader)
