@@ -145,7 +145,7 @@ def run(args):
     testloader = DataLoader(
         testset, batch_size=int(batch_size/2), shuffle=True)
 
-    save_path = "/some_path"
+    save_path = "/path"
     n_images = 18
 
     for epoch in range(epochs):
@@ -159,7 +159,7 @@ def run(args):
 
     sample_and_save_images(n_images, diffusor, model, device, save_path)
     torch.save(model.state_dict(), os.path.join(
-        "/some_path", f"ckpt_class.pt"))
+        "/path", f"ckpt_class.pt"))
 
 
 if __name__ == '__main__':

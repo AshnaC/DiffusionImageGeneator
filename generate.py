@@ -5,9 +5,9 @@ from diffusion import Diffusion, linear_beta_schedule, cosine_beta_schedule, sig
 from model import Unet
 
 # Msk Original path
-class_path = '/some_path'
-path = '/some_path'
-store_path = '/some_path'
+class_path = '/path'
+path = '/path'
+store_path = '/path'
 
 non_class_model = torch.load(path)
 class_model = torch.load(class_path)
